@@ -2,55 +2,66 @@
 <!DOCTYPE html>
 <html lang="he" dir="rtl">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
   <title>התהליך שלך אל עצמך</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
-      background-color: #f0f4f8;
-      font-family: sans-serif;
-      color: #1a1a1a;
-      padding: 40px;
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0d0d0d;
+      color: #eaeaea;
       direction: rtl;
+      background-image: url('background_theta.gif');
+      background-size: cover;
+      background-attachment: fixed;
+    }
+    .overlay {
+      background: rgba(0, 0, 0, 0.7);
+      min-height: 100vh;
+      padding: 3rem 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
     }
     h1 {
-      color: #005c73;
+      font-size: 2.5rem;
+      color: #d9bfff;
+      margin-bottom: 1rem;
     }
-    .section {
-      margin-bottom: 30px;
+    p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin-bottom: 2rem;
     }
-    .whatsapp-button {
-      background-color: #25D366;
+    .cta {
+      background-color: #8a63d2;
       color: white;
-      padding: 12px 20px;
+      padding: 1rem 2rem;
+      font-size: 1.1rem;
       border: none;
-      border-radius: 8px;
+      border-radius: 30px;
       text-decoration: none;
-      font-size: 16px;
+      transition: background-color 0.3s ease;
+    }
+    .cta:hover {
+      background-color: #a786f0;
+    }
+    audio {
+      display: none;
     }
   </style>
 </head>
 <body>
-  <h1>התהליך שלך אל עצמך</h1>
-  <div class="section">
-    <p>תהליך עומק בתת־המודע לריפוי טראומות דרך טראנס מונחה.</p>
-    <p>לא תהליך שיווקי – אלא מסע פנימי למי שמוכן לפגוש את עצמו באמת.</p>
+  <div class="overlay">
+    <h1>התהליך שלך אל עצמך</h1>
+    <p>מסע אישי לריפוי דרך תת־המודע בטראנס תודעתי. מרחב בטוח ומרגיע ללא הבטחות, אלא קריאה אמיתית לשינוי.</p>
+    <a class="cta" href="https://wa.me/972528668915?text=היי%20זאבי%2C%20אני%20מרגיש%20שאני%20מוכן%20להתחייב%20לתהליך%20עם%20עצמי%20-%20ומבקש%20לפתוח%20שיחה%20שקטה%20לגבי%20זה.">שיחה שקטה עם זאבי בוואטסאפ</a>
   </div>
-  <div class="section">
-    <h3>מה כולל התהליך:</h3>
-    <ul>
-      <li>8 פגישות 1/1 של שעה (שיחת וידאו בוואטסאפ)</li>
-      <li>ליווי אישי בוואטסאפ ל-4 חודשים</li>
-      <li>שיחות טלפון קצרות במקרי צורך דחופים</li>
-      <li>תרגולים ומשימות מותאמים אישית</li>
-      <li>כניסה לקבוצת ייעוץ למסיימי תהליך</li>
-    </ul>
-  </div>
-  <div class="section">
-    <p>שלח/י הודעה:</p>
-    <a class="whatsapp-button" href="https://wa.me/972528668915?text=קראתי%20את%20הדף%20לעומק.%20אני%20מרגיש/ה%20שזה%20מדויק%20לי%20ושאני%20מוכן/ה%20להיכנס%20פנימה.%20אשמח%20לבדוק%20יחד%20אם%20זה%20הזמן%20שלי%20להתחיל%20בתהליך.">
-      דבר איתי בוואטסאפ
-    </a>
-  </div>
+  <audio autoplay loop>
+    <source src="theta_background.mp3" type="audio/mpeg">
+  </audio>
 </body>
 </html>
